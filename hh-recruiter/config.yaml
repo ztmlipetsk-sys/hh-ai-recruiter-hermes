@@ -1,0 +1,10 @@
+# Choose the model/provider in Hermes after import; no credentials in this file.
+terminal:
+  backend: local
+  timeout: 180
+platform_toolsets:
+  cli: [terminal, file, clarify]
+  api_server: [terminal, file, clarify]
+  telegram: [terminal, file, clarify]
+agent:
+  disabled_toolsets: [cronjob, delegation, messaging]

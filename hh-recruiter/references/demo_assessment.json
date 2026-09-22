@@ -1,0 +1,60 @@
+{
+  "production_claim_supported": true,
+  "scores": {
+    "ai_agents": {
+      "points": 25,
+      "quote": "Разработал AI-агента с API."
+    },
+    "rag": {
+      "points": 20,
+      "quote": "Внедрил RAG с reranking."
+    },
+    "production": {
+      "points": 20,
+      "quote": "Сервисом пользуются 100 сотрудников."
+    },
+    "python_backend_integrations": {
+      "points": 15,
+      "quote": "Написал Python backend и интеграцию CRM."
+    },
+    "devops_deployment": {
+      "points": 10,
+      "quote": "Лично развернул сервис в Docker на Linux."
+    },
+    "github_cicd": {
+      "points": 5,
+      "quote": "Настроил GitHub Actions для тестов."
+    },
+    "business_independence": {
+      "points": 5,
+      "quote": "Снизил время обработки на 20%."
+    }
+  },
+  "production_evidence": {
+    "project": {
+      "quote": "Разработал AI-агента с API.",
+      "project_key": "project1"
+    },
+    "personal_role": {
+      "quote": "Лично развернул сервис в Docker на Linux.",
+      "project_key": "project1"
+    },
+    "deployment": {
+      "quote": "Лично развернул сервис в Docker на Linux.",
+      "project_key": "project1"
+    },
+    "operations": {
+      "quote": "Сопровождал сервис 8 месяцев: мониторинг и откаты.",
+      "project_key": "project1"
+    },
+    "users_or_result": {
+      "quote": "Сервисом пользуются 100 сотрудников.",
+      "project_key": "project1"
+    }
+  },
+  "summary": "Учебный пример для проверки программы.",
+  "questions": [
+    "Какова ваша личная роль?",
+    "Как проверяли качество RAG?"
+  ]
+}

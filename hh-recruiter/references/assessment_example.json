@@ -1,0 +1,57 @@
+{
+  "production_claim_supported": false,
+  "scores": {
+    "ai_agents": {
+      "points": 0,
+      "quote": ""
+    },
+    "rag": {
+      "points": 0,
+      "quote": ""
+    },
+    "production": {
+      "points": 0,
+      "quote": ""
+    },
+    "python_backend_integrations": {
+      "points": 0,
+      "quote": ""
+    },
+    "devops_deployment": {
+      "points": 0,
+      "quote": ""
+    },
+    "github_cicd": {
+      "points": 0,
+      "quote": ""
+    },
+    "business_independence": {
+      "points": 0,
+      "quote": ""
+    }
+  },
+  "production_evidence": {
+    "project": {
+      "quote": "",
+      "project_key": ""
+    },
+    "personal_role": {
+      "quote": "",
+      "project_key": ""
+    },
+    "deployment": {
+      "quote": "",
+      "project_key": ""
+    },
+    "operations": {
+      "quote": "",
+      "project_key": ""
+    },
+    "users_or_result": {
+      "quote": "",
+      "project_key": ""
+    }
+  },
+  "summary": "",
+  "questions": []
+}
