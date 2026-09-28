@@ -1,0 +1,16 @@
+name: Recruiter tests
+on:
+  push:
+    branches: [main, codex/telegram-candidate-approval]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and run offline tests
+        run: |
+          python3 -m compileall -q hh-recruiter/scripts hh-recruiter/tests
+          python3 -m unittest discover -s hh-recruiter/tests -v
